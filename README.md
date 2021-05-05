@@ -1,6 +1,6 @@
 # Automatically disable Google's floc in Laravel apps
 
-This package will automatically disable Google floc
+This package will automatically disable [Google's floc](https://www.eff.org/deeplinks/2021/03/googles-floc-terrible-idea).
 
 ## Support us
 
