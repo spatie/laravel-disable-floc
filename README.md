@@ -25,9 +25,7 @@ composer require spatie/laravel-disable-floc
 
 ## Usage
 
-The package contains a middleware that adds a header that will disable floc. 
-
-The middleware will be automatically registered in the `web` group, so typically you don't need to do any manual work to make the package work.
+The package will automatically register the `DisableFloc` middleware in the web group. The middleware will add a header to disable floc to all responses that have no `Permissions-Policy` header. 
 
 ## Testing
 
