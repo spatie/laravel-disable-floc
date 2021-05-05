@@ -9,6 +9,6 @@ class DisableFlocServiceProvider extends ServiceProvider
 {
     public function boot()
     {
-        $this->app->make(Kernel::class)->prependMiddlewareToGroup('web', DisableFloc::class);
+       $this->app->make(Kernel::class)->prependMiddlewareToGroup('web', DisableFloc::class);
     }
 }
