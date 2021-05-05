@@ -1,11 +1,11 @@
-# Automatically disable Google's floc in Laravel apps
+# Automatically disable Google's FLoC in Laravel apps
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/spatie/laravel-disable-floc.svg?style=flat-square)](https://packagist.org/packages/spatie/laravel-disable-floc)
 [![run-tests](https://github.com/spatie/laravel-disable-floc/actions/workflows/run-tests.yml/badge.svg)](https://github.com/spatie/laravel-disable-floc/actions/workflows/run-tests.yml)
 [![GitHub Code Style Action Status](https://img.shields.io/github/workflow/status/spatie/laravel-disable-floc/Check%20&%20fix%20styling?label=code%20style)](https://github.com/spatie/laravel-disable-floc/actions?query=workflow%3A"Check+%26+fix+styling"+branch%3Amaster)
 [![Total Downloads](https://img.shields.io/packagist/dt/spatie/laravel-disable-floc.svg?style=flat-square)](https://packagist.org/packages/spatie/laravel-disable-floc)
 
-This package will automatically disable [Google's floc](https://www.eff.org/deeplinks/2021/03/googles-floc-terrible-idea).
+This package will automatically disable [Google's FLoC](https://plausible.io/blog/google-floc).
 
 ## Support us
 
