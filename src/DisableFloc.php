@@ -3,6 +3,7 @@
 namespace Spatie\DisableFloc;
 
 use Closure;
+use Illuminate\Http\Response;
 
 class DisableFloc
 {
@@ -10,7 +11,11 @@ class DisableFloc
     {
         $response = $next($request);
 
-        $response->header('Permissions-Policy', 'interest-cohort=()');
+        if ($response instanceof Response) {
+            if (! $response->headers->has('Permissions-Policy')) {
+                $response->header('Permissions-Policy', 'interest-cohort=()');
+            }
+        }
 
         return $response;
     }
