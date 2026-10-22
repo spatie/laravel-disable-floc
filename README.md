@@ -1,6 +1,4 @@
 
-[<img src="https://github-ads.s3.eu-central-1.amazonaws.com/support-ukraine.svg?t=1" />](https://supportukrainenow.org)
-
 # Automatically disable Google's FLoC in Laravel apps
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/spatie/laravel-disable-floc.svg?style=flat-square)](https://packagist.org/packages/spatie/laravel-disable-floc)
@@ -12,7 +10,7 @@ This package will automatically disable [Google's FLoC](https://plausible.io/blo
 
 ## Support us
 
-[<img src="https://github-ads.s3.eu-central-1.amazonaws.com/laravel-disable-floc.jpg?t=1" width="419px" />](https://spatie.be/github-ad-click/laravel-disable-floc)
+[<img src="https://spatie.be/github-ad-image/laravel-disable-floc.jpg" width="419px" />](https://spatie.be/github-ad-click/laravel-disable-floc)
 
 We invest a lot of resources into creating [best in class open source packages](https://spatie.be/open-source). You can support us by [buying one of our paid products](https://spatie.be/open-source/support-us).
 
